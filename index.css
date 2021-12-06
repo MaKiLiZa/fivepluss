@@ -1,0 +1,101 @@
+body{
+    margin: 0%;
+    background-color: rgb(211, 211, 211);
+}
+header{
+    padding: 30px 10%;
+    background-color: rgb(255, 223, 202);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+.reg{
+    text-decoration: none;
+    color: rgb(50, 61, 82);
+    background-color: rgb(255, 216, 194);
+    transition: background-color 0.3s ease 0s;
+    height: 25px; width: 90px;
+    border: solid rgb(226, 195, 160) 1px;
+    border-radius: 30%;
+    padding: 9px 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reg:hover{
+    background-color: rgb(238, 202, 178);
+}
+.logo{
+    display: flex;
+    justify-content: left;
+}
+nav{
+    max-width: 350px;
+    max-height: 450px;
+}
+.qa{
+    text-decoration: none;
+    border: solid rgb(207, 175, 149) 1px;
+    background-color: rgb(255, 216, 194);
+    color: rgb(71, 71, 71);
+    transition: background-color 0.3s ease 0s;
+    border-radius: 15%;
+    padding: 5px 10px; 
+}
+.qa:hover{
+    background-color: rgb(226, 181, 151);
+    border-radius: 10%;
+    padding: 5px 10px;
+}
+.fr{
+    width: 200px; height: 500px;
+}
+nav{
+    background-color: rgb(177, 177, 177);
+}
+.ar{
+    background-color: rgb(196, 196, 196);
+    width: 1100px;
+
+}
+.m{
+    max-width: 400px;
+    height: 400px;
+
+}
+.loaded{
+    display: flex;
+    justify-content: center;
+}
+.Al{
+    background-color: rgb(196, 196, 196);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 204, 174);
+    color: rgb(50, 61, 82);
+    height: 80px;
+    border: solid 1px rgb(156, 87, 75);
+}
+.row{
+    display: flex;
+
+}
+.sc{
+    border: solid rgb(214, 214, 214);
+}
+.Ra{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(209, 209, 209);
+}
+ul li{
+    margin:  8px;
+}
